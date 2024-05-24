@@ -1,4 +1,4 @@
-# adaptive-second-ord-opt
+# Adaptive-second-ord-opt
 
 
 Does Using Second-Order Information for Step Size Adaptation Improve Neural Network Convergence Speed?
@@ -13,8 +13,8 @@ This project focuses on the analysis and visualisation of different optimizers' 
 - **models/**: Directory for storing trained models.
 - **optimizers/**: Directory for storing different optimisers implementation.
 - **README.md**: Project overview and instructions.
-- **RR_data_visualisation.ipynb**: Jupyter notebook for visualising optimisers performance on the Rahimi-Recht function.
-- **neural_network_task_data_visualisation.ipynb**: Jupyter notebook for visualising optimisers performance on the two network learning tasks.
+- **RR_data_visualisation.ipynb**: Plot optimisers performance on the Rahimi-Recht function.
+- **neural_network_task_data_visualisation.ipynb**: Plot optimisers performance on the two network learning tasks.
 - **data_visualisation_utils.py**: Utility functions for data visualisation.
 - **hessian_analysis.py**: Script for performing Hessian analysis used in the Ramihi-Recht function.
 - **optimiser_configuration.py**: Script for optimisers configuration.
@@ -44,7 +44,7 @@ Ensure you have the following dependencies installed:
 
 #### Training Neural Networks
 
-- Use `tune_and_train_RR.py`, `train_resnet18_by_iterations.py`, and `train_transformer.py` to train neural network on three tasks.
+- Use `tune_and_train_RR.py`, `train_resnet18_by_iterations.py`, and `train_transformer.py` to train neural networks for an ill-conditioned problem, the ResNet18 and the Transformer.
 - The scripts `tune_and_train_RR.py`, `tune_resnet18.py`, and `tune_transformer.py` are for tuning hyperparameters of the respective models.
 
 #### Optimiser Configuration
