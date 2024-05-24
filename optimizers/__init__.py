@@ -9,6 +9,6 @@ from torch.optim.sgd import SGD
 from .sadh import SADH
 from .ssdh import SSDH
 from .SSVP import SSVP
-from .ZSVP import ZSVP
+
 
 from torch.optim.nadam import NAdam
