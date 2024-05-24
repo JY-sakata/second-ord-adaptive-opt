@@ -4,8 +4,11 @@ import math
 
 
 class RahimiRechtFuncModule(nn.Module):
+  
   """Ill-conditioned linear regression problem, with a linear net (default 2 layers).
-  By Rahimi & Recht, from: http://www.argmin.net/2017/12/05/kitchen-sinks/"""
+  By Rahimi & Recht, from: http://www.argmin.net/2017/12/05/kitchen-sinks/
+  Unofficial implementation
+  """
   def __init__(self, xdim = 6, wdim= 6, ydim = 10, nsamples = 1000, A_condition_number = 1e-5, num_layers=2):
       super(RahimiRechtFuncModule, self).__init__()
 
